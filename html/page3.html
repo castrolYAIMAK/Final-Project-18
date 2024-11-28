@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>รายจ่าย</title>
 </head>
 <body>
-    <h1>888</h1>
+    <h2>รายจ่าย</h2>
+
+    <form id="form">
+        <div class="form-coutrol">
+            <label for="text">ระบุประเภท</label> <br>
+            <input type="text" name="" id="text" placeholder="ระบุชื่อธุรกรรม"> 
+        </div>
+        <div class="form-coutrol">
+            <label for="text">ชื่อรายการ</label> <br>
+            <input type="text" name="" id="text" placeholder="ระบุชื่อธุรกรรม">
+        </div>
+        <div class="form-coutrol">
+            <label for="text">จำนวนเงิน </label> <br>
+            <input type="number" name="" id="amount" placeholder="ระบุชื่อธุรกรรม">
+        </div>
+        <button class="btn">เพิ่มธุรกรรม</button>
+    </form>
+    <h3>ประวัตธุรกรรม</h3>
+    <ul class="list">
+        <li class="minus"> ค่าซ่อมรถ <span>$400</span>
+            <button class="delete">x</button>
+        </li>
+    </ul>
 </body>
 </html>
