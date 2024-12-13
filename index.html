@@ -8,11 +8,11 @@
     <script src="scrip.js"></script>
 </head>
 <body>
-    
+<!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->   
     <header>
-        <nav>
+        <nav class="topmain">
             <div class="logo">
-                <a href="index.html"><img src="img/fotor-ai-20241213185855-Photoroom.png" alt="#"></a>
+                <a href="index.html"><img src="img/Screenshot 2024-12-13 205522-Photoroom.png" alt="#"></a>
                 <div>
                     <ul class="login_singin">
                         <li><a href="login.html">เข้าสู่ระบบ</a></li>
@@ -22,37 +22,39 @@
             </div>
         </nav> 
     </header>
-
-    </div>
-        <ul class="side">
-            <li><a href="index.html">ภาพรวม</a></li>
-            <li><a href="page3.html">รายจ่าย</a></li>
-            <li><a href="page2.html">รายรับ</a></li>
-            <li><a href="page4.html">ประวัติรายเดือน</a></li>
-        </ul>
-    </div>
-
-    <div class="containr">
-        <h4>ยอดคงเหลือ (บาท)</h4>
-        <h1 id="balance">฿0.00</h1>
-        <div class="incom-expense-container">
-            <div>
-                <h4>รายรับ</h4>
-                <p id="money-plus" class="money plus">฿5000</p>
-            </div>
-            <div>
-                <h4>รายจ่าย</h4>
-                <p id="money-minus" class="money minus">-฿200</p>
-            </div>
-            <h3>ประวัตธุรกรรม</h3>
-            <ul id="list" class="list">
-                <li class="minus"> ค่าซ่อมรถ <span>฿400</span>
-                <button class="delete-btn">x</button>
-                </li>
-                <li class="minus"> เงินเดือน <span>฿15000</span>
-                    <button class="delete-btn">x</button>
-                </li>
+    <nav class="containr">
+        <nav class="leftside">
+            <ul class="side">
+                <li><a href="index.html">ภาพรวม</a></li>
+                <li><a href="page3.html">บันทึกรายจ่าย</a></li>
+                <li><a href="page2.html">บันทึกรายรับ</a></li>
+                <li><a href="page4.html">ประวัติรายเดือน</a></li>
             </ul>
-            
+        </nav>
+<!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+        <div class="rightside">
+            <h4>ยอดคงเหลือ (บาท)</h4>
+            <h1 id="balance">฿0.00</h1>
+            <div class="incom-expense-container">
+                <div>
+                    <h4>บันทึกรายรับ</h4>
+                    <p id="money-plus" class="money plus">฿5000</p>
+                </div>
+                <div>
+                    <h4>บันทึกรายจ่าย</h4>
+                    <p id="money-minus" class="money minus">-฿200</p>
+                </div>
+                <h3>ประวัตธุรกรรม</h3>
+                <ul id="list" class="list">
+                    <li class="minus"> ค่าซ่อมรถ <span>฿400</span>
+                    <button class="delete-btn">x</button>
+                    </li>
+                    <li class="minus"> เงินเดือน <span>฿15000</span>
+                        <button class="delete-btn">x</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>

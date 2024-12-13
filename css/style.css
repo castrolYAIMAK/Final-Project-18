@@ -1,3 +1,4 @@
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
@@ -15,21 +16,25 @@ body {
     padding: 0;
     background-color: #b2c1c8;
 }
-nav {
+.topmain {
+    margin: 1rem 1rem;
     background-color: whitesmoke;
+    border: solid 2px black;
+    border-radius: 10px;
 }
 
 .logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 75px;
 }
 
-.logo img {
-    margin: 1rem 3rem;
+.logo img  {
+    margin: 0 2rem;
     text-decoration: none;
-    width: 40px;
-    height: 40px;
+    width: 200px;
+    height: 100px;
 }
 
 .login_singin li a {
@@ -46,3 +51,49 @@ nav {
 .login_singin li {
     margin-left: 20px;
 }
+
+.login_singin li a {
+    border: solid 2px black;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.containr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftside{
+    overflow: hidden;
+    margin-left: 1rem ;
+    background-color: whitesmoke;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 260px;
+    height: 860px;
+    text-align: center;
+}
+
+.side li{
+    margin-top: 40px;
+}
+.side li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+
+
+
+
+
+
+
+
+
+
+
+
