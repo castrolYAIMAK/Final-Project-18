@@ -7,50 +7,57 @@
     <link rel="stylesheet" href="css/style_page2.css">
 </head>
 <body>
-    <h2>รายรับ</h2>
 
-    <header>
-        <div class="logo">
-            <img src="#" alt="#">
-            <a href="index.html"></a>
-        </div>
-        <div>
-            <ul class="login_singin">
+<header>
+  
+    <div class="logo"> 
+        <a href="index.html"><img src="img/Screenshot 2024-12-13 205522-Photoroom.png" alt="#"></a>
+    </div>
+    <div>
+        <ul class="login_singin">
                 <li><a href="login.html">เข้าสู่ระบบ</a></li>
                 <li><a href="singin.html">สมัครใหม่</a></li>
-            </ul>
-        </div>
-    </header>
+        </ul>
+    
+    </div>
+ 
+</header>
+<main>
 
     </div>
-        <ul class="side">
+        <ul class="leftside">
             <li><a href="index.html">ภาพรวม</a></li>
-            <li><a href="page3.html">รายจ่าย</a></li>
-            <li><a href="page2.html">รายรับ</a></li>
+            <li><a href="page3.html">บันทึกรายจ่าย</a></li>
+            <li><a href="page2.html">บันทึกรายรับ</a></li>
             <li><a href="page4.html">ประวัติรายเดือน</a></li>
         </ul>
     </div>
-
-    <form id="form">
-        <div class="form-coutrol">
-            <label for="text">ระบุประเภท</label> <br>
-            <input type="text" name="" id="text" placeholder="ระบุชื่อธุรกรรม"> 
+    <div class="rightside">
+        <div class="incom">
+            <h2> รายรับ(incom) </h2>
         </div>
-        <div class="form-coutrol">
-            <label for="text">ชื่อรายการ</label> <br>
-            <input type="text" name="" id="text" placeholder="ระบุชื่อธุรกรรม">
-        </div>
-        <div class="form-coutrol">
-            <label for="text">จำนวนเงิน </label> <br>
-            <input type="number" name="" id="amount" placeholder="ระบุชื่อธุรกรรม">
-        </div>
-        <button class="btn">เพิ่มธุรกรรม</button>
-    </form>
-    <h3>ประวัตธุรกรรม</h3>
-    <ul class="list">
-        <li class="plus"> เงินเดือน <span>$40000</span>
-            <button class="delete">x</button>
-        </li>
-    </ul>
+        <form id="form">
+            <div class="form-coutrola">
+                <label for="text">ระบุประเภท</label> <br>
+                <input type="text" name="" id="text" placeholder="ระบุชื่อธุรกรรม"> 
+            </div>
+            <div class="form-coutrolb">
+                <label for="text">ชื่อรายการ</label> <br>
+                <input type="text" name="" id="text" placeholder="ระบุชื่อธุรกรรม">
+            </div>
+            <div class="form-coutrolc">
+                <label for="text">จำนวนเงิน </label> <br>
+                <input type="number" name="" id="amount" placeholder="ระบุชื่อธุรกรรม">
+            </div>
+            <button class="btn">เพิ่มธุรกรรม</button>
+        </form>
+        <h3>ประวัตธุรกรรม</h3>
+        <ul class="list">
+            <li class="plus"> เงินเดือน <span>$40000</span>
+                <button class="delete">x</button>
+            </li>
+        </ul>
+    </div>
+</main>
 </body>
 </html>
