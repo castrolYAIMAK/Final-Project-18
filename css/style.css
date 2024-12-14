@@ -83,7 +83,7 @@ body {
     overflow: hidden;
     background-color: #dddbdb;
     border-radius: 10px;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     padding: 1rem;
     margin: 1rem;
 }  
@@ -92,8 +92,44 @@ body {
     color: black;
     text-decoration: none;
 }
-
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.rightside {
+    overflow: hidden;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    background-color: whitesmoke;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 1800px;
+    height: auto;
+  }
+
+.ontop{
+
+    overflow: hidden;
+    display: flex;
+    padding: 2rem;
+    margin: 1rem;
+    background-color: whitesmoke;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.ontop1{
+    padding: 2rem;
+    margin: 1rem;
+    background-color: whitesmoke;
+    border: solid 2px black;
+    border-radius: 10px;
+
+    
+}
+
+
+
+
+
 
 
 
