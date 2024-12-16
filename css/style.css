@@ -102,7 +102,6 @@ body {
   }
 
 .ontop{
-
     overflow: hidden;
     display: flex;
     padding: 2rem;
@@ -110,7 +109,8 @@ body {
     background-color: whitesmoke;
     border: solid 2px black;
     border-radius: 10px;
-    font-size: 40px;
+    font-size: 30px;
+    width: 550px;
 }
 
 .ontop1{
@@ -119,8 +119,17 @@ body {
     background-color: whitesmoke;
     border: solid 2px black;
     border-radius: 10px;
+    width: 400px;
+    height: 10px;
+}   
 
-    
+.balance{
+    padding: 1rem;
+}
+
+.incom-expense-container{
+    display: flex;
+        
 }
 
 
