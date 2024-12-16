@@ -64,6 +64,7 @@ body {
 .leftside{
     overflow: hidden;
     margin-left: 1rem ;
+    margin-bottom: 1rem;
     background-color: whitesmoke;
     border: solid 2px black;
     border-radius: 10px;
@@ -94,6 +95,7 @@ body {
     overflow: hidden;
     margin-right: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
     background-color: whitesmoke;
     border: solid 2px black;
     border-radius: 10px;
@@ -119,18 +121,19 @@ body {
     background-color: whitesmoke;
     border: solid 2px black;
     border-radius: 10px;
-    width: 400px;
+    width: 350px;
     height: 10px;
 }   
 
 .balance{
-    padding: 1rem;
+    font-size: 30px;
 }
 
-.incom-expense-container{
-    display: flex;
-        
+.right-two{
+    display: flex;       
 }
+
+
 
 
 
