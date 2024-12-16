@@ -12,6 +12,7 @@ body {
     padding: 0;
     background-color: #b2c1c8;
     font-family: "Kanit", serif;
+
 }
 .topmain {
     margin: 1rem 1rem;
@@ -107,12 +108,14 @@ body {
     overflow: hidden;
     display: flex;
     padding: 2rem;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
     background-color: whitesmoke;
     border: solid 2px black;
     border-radius: 10px;
     font-size: 30px;
     width: 550px;
+    
 }
 
 .ontop1{
@@ -129,9 +132,47 @@ body {
     font-size: 30px;
 }
 
-.right-two{
-    display: flex;       
+.incom-expense-container{
+    display: flex;
+
 }
+
+.one-money-plus{
+    margin: 1rem;
+    padding: 2rem;
+    border: solid 2px black;
+    border-radius: 10px;
+
+}
+.one-money-plus P:first-of-type{
+    color: rgb(3, 235, 3);
+    text-align: center;
+}
+
+.two-money-minus{
+    margin: 1rem;
+    padding: 2rem;
+    border: solid 2px black;
+    border-radius: 10px;
+
+}
+.two-money-minus P:first-of-type{
+    color: red;
+    text-align: center;
+}
+
+.right-three{
+    margin-top: 1rem ;
+    padding: 2rem;
+    border: solid 2px black;
+    border-radius: 10px;
+
+}
+
+
+
+
+
 
 
 
