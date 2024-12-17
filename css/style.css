@@ -104,9 +104,11 @@ body {
     height: auto;
   }
 
+ 
+
 .ontop{
     overflow: hidden;
-    display: flex;
+    /* display: flex; */
     padding: 2rem;
     margin-top: 1rem;
     margin-left: 1rem;
@@ -115,23 +117,22 @@ body {
     border-radius: 10px;
     font-size: 30px;
     width: 550px;
+    font-size: 20px;
+    text-align: center;
     
 }
 
-/* .ontop1{
-    padding: 2rem;
-    margin: 1rem;
-    background-color: whitesmoke;
-    border: solid 2px black;
-    border-radius: 10px;
-    width: 350px;
-    height: 10px;
-}    */
+
+
+.ontop1{
+ text-align: center;
+ padding-right: 4rem;
+} 
 
 .balance{
     padding-left: 75px  ;
     padding-bottom: px;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .incom-expense-container{
