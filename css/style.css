@@ -129,6 +129,8 @@ body {
 }   
 
 .balance{
+    padding-left: 75px  ;
+    padding-bottom: px;
     font-size: 30px;
 }
 
@@ -138,7 +140,9 @@ body {
 }
 
 .one-money-plus{
-    margin: 1rem;
+    margin-left: 7.5rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
     padding: 2rem;
     border: solid 2px black;
     border-radius: 10px;
@@ -150,7 +154,9 @@ body {
 }
 
 .two-money-minus{
-    margin: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
     padding: 2rem;
     border: solid 2px black;
     border-radius: 10px;
@@ -162,7 +168,8 @@ body {
 }
 
 .right-three{
-    margin-top: 1rem ;
+    margin-top: auto;
+    margin-left: 9rem;
     padding: 2rem;
     border: solid 2px black;
     border-radius: 10px;
