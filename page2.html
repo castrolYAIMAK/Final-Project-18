@@ -8,31 +8,37 @@
 </head>
 <body>
 
-<header>
-  
-    <div class="logo"> 
-        <a href="index.html"><img src="img/Screenshot 2024-12-13 205522-Photoroom.png" alt="#"></a>
-    </div>
-    <div>
-        <ul class="login_singin">
-                <li><a href="login.html"><button class="btn-2">เข้าสู่ระบบ</button></a></li>
-                <li><a href="singin.html"><button class="btn-2">สมัครใหม่</button></a></li>
-        </ul>
+    <header>
+        <nav class="topmain">
+            <div class="logo">
+                <a href="index.html"><img src="img/Screenshot 2024-12-13 205522-Photoroom.png" alt="#"></a>
+                <div>
+                    <ul class="login_singin">
+                        <li><a href="login.html">เข้าสู่ระบบ</a></li>
+                        <li><a href="singin.html">สมัครใหม่</a></li>
+                    </ul>
+                </div> 
+            </div>
+        </nav> 
+    </header>
     
-    </div>
- 
-</header>
 <main>
+  <!-- กล่องซ้ายใหญ่ -->
+  <div class="leftside">
+      <ul class="side">
+          <li><a href="index.html">ภาพรวม</a></li>
+          <li><a href="page3.html">บันทึกรายจ่าย</a></li>
+          <li><a href="page2.html">บันทึกรายรับ</a></li>
+          <!--<li><a href="page4.html">ประวัติรายเดือน</a></li> -->
+      </ul>
+  </div>
+  <!-- กล่องซ้ายใหญ่ -->
 
-    </div>
-        <ul class="leftside">
-            <li><a href="index.html"><button class="btn-1">ภาพรวม</button></a></li>
-            <li><a href="page3.html"><button class="btn-1">บันทึกรายจ่าย</button></a></li>
-            <li><a href="page2.html"><button class="btn-1">บันทึกรายรับ</button></a></li>
-            <li><a href="page4.html"><button class="btn-1">ประวัติรายเดือน</button></a></li>
-        </ul>
-    </div>
-    <div class="rightside">
+  <!-- กล่องขวาใหญ่ -->
+  <div class="rightside">
+
+    <!-- กล่องขวาเล็ก1 -->
+    <div class="rightside1">
         <div class="incom">
             <h2> รายรับ(incom) </h2>
         </div>
@@ -49,8 +55,14 @@
                 <label for="text">จำนวนเงิน </label> <br>
                 <input type="number" name="" id="amount" placeholder="ระบุชื่อธุรกรรม">
             </div>
+
             <button class="btn">เพิ่มธุรกรรม</button>
         </form>
+    </div>
+    <!-- กล่องขวาเล็ก1 -->
+
+    <!-- กล่องขวาเล็ก2 -->
+    <div class="rightside2">
         <h3>ประวัตธุรกรรม</h3>
         <ul class="list">
             <li class="plus"> เงินเดือน <span>$40000</span>
@@ -58,6 +70,10 @@
             </li>
         </ul>
     </div>
+    <!-- กล่องขวาเล็ก2 -->
+
+  </div>
+  <!-- กล่องขวาใหญ่ -->
 </main>
 </body>
 </html>
