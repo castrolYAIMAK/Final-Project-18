@@ -5,18 +5,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  margin: 0;
+
+body {
+  margin:  0;
   padding: 0;
   background-color: #b2c1c8;
   font-family: "Kanit", serif;
-}
 
-header{
-  margin: 1rem;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
+}
+.topmain {
+  margin: 1rem 1rem;
   background-color: whitesmoke;
   border: solid 2px black;
   border-radius: 10px;
@@ -24,90 +22,102 @@ header{
 
 .logo {
   display: flex;
-  height: 75px;
+  justify-content: space-between;
   align-items: center;
+  height: 75px;
 }
 
-.logo img{
+.logo img  {
   margin: 0 2rem;
   text-decoration: none;
   width: 200px;
   height: 100px;
 }
 
-.btn-2{
-  margin-right: 18px;
-  background-color: white;
-  border-radius: 10px;
-  padding: 9px;
-  font-family: "Kanit", serif;
-  cursor: pointer;
+.login_singin li a {
+  color: black;
+  text-decoration: none;
 }
 
-.btn-2:hover{
-  background-color: #b2b2b2;
-  transition: 0.4s;
-}
-
-.login_singin{
+.login_singin {
   display: flex;
   list-style: none;
-  align-items: center;
+  margin: 1rem;
 }
 
+.login_singin li {
+  margin-left: 20px;
+}
 
+.login_singin li a {
+  border: solid 2px black;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 10px;
+}
 
 main{
-
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 6fr;
 }
 
-.leftside {
-    overflow: hidden;
-    margin-left: 1rem ;
-    margin-right: 1rem;
-    background-color: whitesmoke;
-    border: solid 2px black;
-    border-radius: 10px;
-    width: auto;
-    height: auto;
-    text-align: center;
+.leftside{
+  overflow: hidden;
+  margin-left: 1rem ;
+  background-color: whitesmoke;
+  border: solid 2px black;
+  border-radius: 10px;
+  width: 185px;
+  height: auto;
+  text-align: center;
+}
+
+.side li{
+  margin-top: 40px;
+}
+
+.side li:hover  {
+  overflow: hidden;
+  background-color: #dddbdb;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+  padding: 1rem;
+  margin: 1rem;
+}  
+
+.side li a {
+  color: black;
+  text-decoration: none;
 }
 
 
-.btn-1{
-    margin: 35px;
-    padding: 23px;
-    width: 60%;
-    background-color: white; 
-    border-radius: 10px;
-    font-size: 16px;
-    text-decoration: none;
-    cursor: pointer;
-    align-items: center;
-    font-family: "Kanit", serif;
-}
-.btn-1:hover{
-  background-color: #b2b2b2;
-  transition: 0.4s;
-}
+
+
 
 .rightside {
-    overflow: hidden;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
     margin-right: 1rem;
+    overflow: hidden;
     background-color: whitesmoke;
     border: solid 2px black;
     border-radius: 10px;
     width: auto;
     height: auto;
     text-align: center;
+}
+
+.rightside1{
+  margin: 1rem;
+  border: solid 2px black;
+  border-radius: 10px;
+  height: auto;
 }
 
 .incom {
   text-align: left;
   font-size: 25px;
-  margin: 50px;
+  margin: 40px;
 }
 
 .form-coutrola {
@@ -115,14 +125,14 @@ main{
 }
 
 .form-coutrolb {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .form-coutrolc {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
-.rightside li {
+.rightside1 li {
   padding: 100px;
 }
 
@@ -134,7 +144,7 @@ label{
 input[type="text"],input[type="number"]{
   border: 1px solid black;
   border-radius: 10px;
-  margin: 10px;
+  margin: 8px;
   padding: 15px;
   font-size: 16px;
   width: 50%;
@@ -150,10 +160,19 @@ input[type="text"],input[type="number"]{
   cursor: pointer;
   margin: 20px;
   padding: 10px;
-  width: 15%;
+  width: 20%;
 }
 
 .btn:hover{
     background-color: rgb(75, 2, 75);
     transition: 0.4s;
+}
+
+.rightside2{
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border: solid 2px black;
+  border-radius: 10px;
+  height: auto;
 }
